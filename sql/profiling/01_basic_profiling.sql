@@ -7,6 +7,10 @@
 -- Tool: Google BigQuery
 -- =====================================
 
+-- =====================================
+-- Total Rows
+-- =====================================
+
 SELECT COUNT(*) AS total_rows
 FROM `raw.lending_club_loans_sample`;
 
@@ -15,6 +19,10 @@ FROM `raw.lending_club_loans_sample`;
 -- - Potential candidate keys identified: id (loan-level), member_id (customer-level).
 -- - Uniqueness not validated at this stage.
 
+
+-- =====================================
+-- Schema Overview
+-- =====================================
 
 SELECT
   column_name,
@@ -27,7 +35,8 @@ WHERE
 ORDER BY
   ordinal_position;
 
+
 -- Findings:
--- - Schema reviewed using INFORMATION_SCHEMA for reproducibility.
--- - Dataset contains a mix of numeric, categorical, and boolean fields.
--- - Several fields are nullable and will require completeness checks in later steps.
+-- - Schema documented using INFORMATION_SCHEMA for reproducibility.
+-- - Dataset includes numeric, categorical, and boolean fields.
+-- - Nullable fields identified for downstream data quality checks.
