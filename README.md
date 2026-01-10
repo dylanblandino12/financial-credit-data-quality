@@ -1,6 +1,11 @@
 # financial-credit-data-quality
 End-to-end data quality framework for financial credit risk data using SQL, Python and Power BI.
 
+## Data Source
+- Dataset: Should This Loan be Approved or Denied? (Kaggle)
+- Table: loan_applications
+- Layer: RAW
+
 ## Dataset Overview
 - Dataset: Lending Club Loan Data (sampled)
 - Layer: RAW
