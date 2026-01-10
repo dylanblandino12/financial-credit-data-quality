@@ -1,0 +1,8 @@
+-- =====================================
+-- File: 01_basic_profiling.sql
+-- Purpose: Initial data profiling to assess data completeness,
+--          value ranges, and potential quality issues on raw data
+-- Dataset: Credit Risk Dataset
+-- Layer: RAW
+-- Tool: Google BigQuery
+-- =====================================
