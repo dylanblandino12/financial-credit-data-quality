@@ -88,3 +88,6 @@ The main data quality risk identified is **cross-field consistency**, rather tha
 ---
 
 ## Next
+- Consolidate data quality metrics using Python.
+- Calculate impact percentages and severity levels.
+- Build a Power BI dashboard to monitor data quality KPIs over time.
